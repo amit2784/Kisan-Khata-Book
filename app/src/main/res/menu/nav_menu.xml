@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menu_profile"
+        android:icon="@drawable/ic_baseline_perm_identity_24"
+        android:title="Profile" />
+
+    <group android:checkableBehavior="single">
+        <item
+           
+            android:title="Farmer">
+            <menu>
+                <item
+                    android:id="@+id/menu_add_far"
+                    android:icon="@drawable/ic_baseline_person_add_24"
+                    android:title="Add Farmer" />
+                <item
+                    android:id="@+id/menu_edit_or_delete_far"
+                    android:icon="@drawable/ic_baseline_edit_24"
+                    android:title="Edit OR Delete Farmer" />
+
+            </menu>
+
+        </item>
+    </group>
+
+    <group android:checkableBehavior="single">
+        <item
+
+            android:title="Village">
+            <menu>
+                <item
+                    android:id="@+id/menu_add_or_delete_vil"
+                    android:icon="@drawable/ic_baseline_add_location_alt_24"
+                    android:title="Add OR Delete Village" />
+
+            </menu>
+        </item>
+    </group>
+
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/menu_tools"
+            android:title="Tools">
+            <menu>
+                <item
+                    android:id="@+id/settings"
+                    android:icon="@drawable/ic_baseline_settings_24"
+                    android:title="Settings" />
+                <item
+                    android:id="@+id/logout"
+                    android:icon="@drawable/ic_baseline_logout_24"
+                    android:title="Log Out" />
+                <item
+                    android:id="@+id/close"
+                    android:icon="@drawable/ic_baseline_exit_to_app_24"
+                    android:title="Close" />
+            </menu>
+        </item>
+    </group>
+
+
+</menu>

@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">Kisan Khata Book</string>
+    
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="close">Close</string>
+    <string name="open">Open</string>
+
+
+    <string-array name="Implement">
+        <item>Water</item>
+        <item>Cultivator</item>
+        <item>Rotavator</item>
+        <item>Harrow</item>
+        <item>Plough</item>
+        <item>Seed Drill</item>
+        <item>Planter</item>
+        <item>Land Leveler</item>
+        <item>Cutter Thresher</item>
+
+    </string-array>
+
+    <string-array name="Crop">
+        <item>Land</item>
+        <item>Wheat</item>
+        <item>Bajra</item>
+        <item>Mustard </item>
+        <item>Potato</item>
+        <item>Jowar</item>
+        <item>Rice</item>
+        <item>Gram</item>
+
+    </string-array>
+
+    <string-array name="AreaType">
+        <item>Time</item>
+        <item>Bigha</item>
+        <item>Bigha-K</item>
+        <item>Bigha-P</item>
+        <item>Biswa</item>
+        <item>Biswa-K</item>
+        <item>Biswa-P</item>
+        <item>Killa</item>
+        <item>Biswansi</item>
+        <item>Kattha</item>
+        <item>Acre</item>
+        <item>Hectare</item>
+    </string-array>
+
+</resources>

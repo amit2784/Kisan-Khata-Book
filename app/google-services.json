@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "968410640795",
+    "project_id": "kisan-khata-book",
+    "storage_bucket": "kisan-khata-book.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:968410640795:android:50cabf501101154b8d313e",
+        "android_client_info": {
+          "package_name": "com.ask2784.kisankhatabook"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "968410640795-i7ihqhb8tp55c7kjp1h91shafccmdg62.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA6U12imX4uCftj3LrbWMyiyakH3u_CvPc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "968410640795-i7ihqhb8tp55c7kjp1h91shafccmdg62.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
