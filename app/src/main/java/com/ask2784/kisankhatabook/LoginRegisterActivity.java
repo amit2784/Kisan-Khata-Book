@@ -24,10 +24,10 @@ public class LoginRegisterActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login_register);
 
-//        if (FirebaseAuth.getInstance().getCurrentUser()!=null){
-//            startActivity(new Intent(this,MainActivity.class));
-//            this.finish();
-//        }
+        if (FirebaseAuth.getInstance().getCurrentUser()!=null){
+     startActivity(new Intent(this,MainActivity.class));
+            this.finish();
+        }
     }
 
     public void loginRegister(View view) {
