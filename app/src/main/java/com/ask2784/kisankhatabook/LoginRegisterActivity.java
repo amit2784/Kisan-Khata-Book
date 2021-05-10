@@ -25,7 +25,7 @@ public class LoginRegisterActivity extends AppCompatActivity {
         setContentView(R.layout.activity_login_register);
 
         if (FirebaseAuth.getInstance().getCurrentUser()!=null){
-     startActivity(new Intent(this,MainActivity.class));
+            startActivity(new Intent(this,MainActivity.class));
             this.finish();
         }
     }
